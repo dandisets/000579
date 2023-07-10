@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000579
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -9,30 +10,79 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Tseng, Shih-Yi (2023) Two photon imaging of mouse posterior cortex during
-  dynamic navigation decisions with rule-switching (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000579/draft
+citation: Tseng, Shih-Yi; Chettih, Selmaan; Harvey, Christopher (2023) Two photon
+  calcium imaging of mouse posterior cortical areas during dynamic navigation decisions
+  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000579/draft
 contributor:
-- affiliation: []
+- affiliation:
+  - name: Harvard Medical School
+    schemaKey: Affiliation
   email: shihyi_tseng@g.harvard.edu
+  identifier: 0000-0002-5029-433X
   includeInCitation: true
   name: Tseng, Shih-Yi
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:DataManager
+  - dcite:FormalAnalysis
+  - dcite:Conceptualization
+  schemaKey: Person
+- affiliation:
+  - name: Harvard Medical School
+    schemaKey: Affiliation
+  identifier: 0000-0003-2045-3747
+  includeInCitation: true
+  name: Chettih, Selmaan
+  roleName:
+  - dcite:Author
+  - dcite:Conceptualization
+  schemaKey: Person
+- affiliation:
+  - name: Harvard Medical School
+    schemaKey: Affiliation
+  email: 'Christopher_Harvey@hms.harvard.edu '
+  identifier: 0000-0001-9850-2268
+  includeInCitation: true
+  name: Harvey, Christopher
+  roleName:
+  - dcite:Conceptualization
+  - dcite:ContactPerson
+  - dcite:FundingAcquisition
   schemaKey: Person
 dateCreated: '2023-07-10T21:58:09.569708+00:00'
 description: Datasets for Tseng et al, "Shared and specialized coding across posterior
   cortical areas for dynamic navigation decisions" in Neuron 2022.
+ethicsApproval: []
 id: DANDI:000579/draft
 identifier: DANDI:000579
+keywords:
+- mouse
+- cortex
+- decision-making
+- navigation
+- virtual reality
+- two-photon imaging
+- posterior cortex
+- posterior parietal cortex
+- retrosplenial cortex
+- visual cortex
+- rule-switching
+- flexible decisions
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000579/versions/draft/assets/
-name: Two photon imaging of mouse posterior cortex during dynamic navigation decisions
-  with rule-switching
+name: Two photon calcium imaging of mouse posterior cortical areas during dynamic
+  navigation decisions
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000579/draft
 version: draft
+wasGeneratedBy: []
