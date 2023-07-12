@@ -10,7 +10,7 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Tseng, Shih-Yi; Chettih, Selmaan; Harvey, Christopher (2023) Two photon
+citation: Tseng, Shih-Yi; Chettih, Selmaan; Harvey, Christopher (2023) Two-photon
   calcium imaging of mouse posterior cortical areas during dynamic navigation decisions
   (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000579/draft
 contributor:
@@ -53,8 +53,18 @@ contributor:
   - dcite:FundingAcquisition
   schemaKey: Person
 dateCreated: '2023-07-10T21:58:09.569708+00:00'
-description: Datasets for Tseng et al, "Shared and specialized coding across posterior
-  cortical areas for dynamic navigation decisions" in Neuron 2022.
+description: "This is the dataset for Tseng et al, \"Shared and specialized coding
+  across posterior cortical areas for dynamic navigation decisions\" in Neuron 2022.
+  The dataset contains calcium activity of >200,000 neurons recorded from 6 different
+  cortical areas in mouse posterior cortex L2/3 and L5 using two-photon imaging, including
+  V1 and secondary visual areas, retrosplenial cortex (RSC) and posterior parietal
+  cortex (PPC), while the mice were performing a flexible decision-making task based
+  on rule-switching during virtual navigation. There are total 300 behavior + imaging
+  sessions collected from 8 mice. The neurons in each experiment have been registered
+  into the Allen Institute Mouse Common Coordinate Framework (CCF) based on widefield
+  retinotopy. In addition, these neurons contain fluorescent labels of retroAAV injected
+  in one of the two sets of projection targets: anterior ACC/M2 and striatum, or posterior
+  ACC/M2 and OFC.   \n\nPlease see the related paper for more details: https://doi.org/10.1016/j.neuron.2022.05.012"
 ethicsApproval: []
 id: DANDI:000579/draft
 identifier: DANDI:000579
@@ -75,7 +85,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000579/versions/draft/assets/
-name: Two photon calcium imaging of mouse posterior cortical areas during dynamic
+name: Two-photon calcium imaging of mouse posterior cortical areas during dynamic
   navigation decisions
 protocol: []
 relatedResource: []
