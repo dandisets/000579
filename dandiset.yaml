@@ -10,8 +10,6 @@ assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
     schemaKey: ApproachType
-  - name: behavioral approach
-    schemaKey: ApproachType
   dataStandard:
   - identifier: RRID:SCR_015242
     name: Neurodata Without Borders (NWB)
@@ -21,10 +19,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 3821433081
-  numberOfFiles: 11
+  numberOfBytes: 2025504808
+  numberOfFiles: 8
   numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
@@ -35,10 +31,6 @@ assetsSummary:
   - ImagingPlane
   - ProcessingModule
   - OpticalChannel
-  - Position
-  - BehavioralTimeSeries
-  - SpatialSeries
-  - PlaneSegmentation
 citation: Tseng, Shih-Yi; Chettih, Selmaan; Harvey, Christopher (2023) Two-photon
   calcium imaging of mouse posterior cortical areas during dynamic navigation decisions
   (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
