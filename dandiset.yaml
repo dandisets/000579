@@ -23,9 +23,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 150957857815
-  numberOfFiles: 191
-  numberOfSubjects: 5
+  numberOfBytes: 240432277923
+  numberOfFiles: 303
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -41,7 +41,7 @@ assetsSummary:
   - ImagingPlane
 citation: Tseng, Shih-Yi; Chettih, Selmaan; Harvey, Christopher (2023) Two-photon
   calcium imaging of mouse posterior cortical areas during dynamic navigation decisions
-  (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+  (Tseng et al., 2022, Neuron) (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000579/draft
 contributor:
 - affiliation:
   - name: Harvard Medical School
@@ -78,13 +78,11 @@ contributor:
   name: Harvey, Christopher
   roleName:
   - dcite:Conceptualization
-  - dcite:ContactPerson
   - dcite:FundingAcquisition
   schemaKey: Person
 dateCreated: '2023-07-10T21:58:09.569708+00:00'
-datePublished: '2023-07-17T17:46:57.177046+00:00'
 description: "This is the dataset for Tseng et al, \"Shared and specialized coding
-  across posterior cortical areas for dynamic navigation decisions\" in Neuron 2022.
+  across posterior cortical areas for dynamic navigation decisions\" in Neuron (2022).
   The dataset contains calcium activity of >200,000 neurons recorded from 6 different
   cortical areas in mouse posterior cortex L2/3 and L5 using two-photon imaging, including
   V1 and secondary visual areas, retrosplenial cortex (RSC) and posterior parietal
@@ -95,7 +93,6 @@ description: "This is the dataset for Tseng et al, \"Shared and specialized codi
   retinotopy. In addition, these neurons contain fluorescent labels of retroAAV injected
   in one of the two sets of projection targets: anterior ACC/M2 and striatum, or posterior
   ACC/M2 and OFC.   \n\nPlease see the related paper for more details: https://doi.org/10.1016/j.neuron.2022.05.012"
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000579/draft
 identifier: DANDI:000579
@@ -117,20 +114,8 @@ license:
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000579/versions/draft/assets/
 name: Two-photon calcium imaging of mouse posterior cortical areas during dynamic
-  navigation decisions
+  navigation decisions (Tseng et al., 2022, Neuron)
 protocol: []
-publishedBy:
-  endDate: '2023-07-17T17:46:57.177046+00:00'
-  id: urn:uuid:ebdd6c73-0ec9-435a-b6a3-1070df7cc12f
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-07-17T17:46:57.177046+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:af8aeac2-8f79-4bca-904b-26fe34fbda6d
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
