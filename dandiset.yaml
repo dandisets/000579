@@ -23,9 +23,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 97722750897
-  numberOfFiles: 120
-  numberOfSubjects: 4
+  numberOfBytes: 243248779118
+  numberOfFiles: 306
+  numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -81,7 +81,7 @@ contributor:
   - dcite:FundingAcquisition
   schemaKey: Person
 dateCreated: '2023-07-10T21:58:09.569708+00:00'
-datePublished: '2023-07-21T16:46:55.287805+00:00'
+datePublished: '2023-07-21T17:34:58.181673+00:00'
 description: "This is the dataset for Tseng et al, \"Shared and specialized coding
   across posterior cortical areas for dynamic navigation decisions\" in Neuron (2022).
   The dataset contains calcium activity of >200,000 neurons recorded from 6 different
@@ -119,13 +119,13 @@ name: Two-photon calcium imaging of mouse posterior cortical areas during dynami
   navigation decisions (Tseng et al., 2022, Neuron)
 protocol: []
 publishedBy:
-  endDate: '2023-07-21T16:46:55.287805+00:00'
-  id: urn:uuid:c4a4273c-5124-4d30-91b0-5f1b2ea732e1
+  endDate: '2023-07-21T17:34:58.181673+00:00'
+  id: urn:uuid:1ca16533-d955-4213-a7f5-214a3877f501
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-07-21T16:46:55.287805+00:00'
+  startDate: '2023-07-21T17:34:58.181673+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:0cb2c328-d529-46e2-8120-2319b3cd7549
+  - id: urn:uuid:bc4097ba-b844-4078-83b0-d77eb21dff46
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
