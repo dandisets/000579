@@ -7,9 +7,38 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: microscopy approach; cell population imaging
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 97722750897
+  numberOfFiles: 120
+  numberOfSubjects: 4
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ImagingPlane
+  - ProcessingModule
+  - OpticalChannel
+  - Position
+  - SpatialSeries
+  - BehavioralTimeSeries
+  - PlaneSegmentation
 citation: Tseng, Shih-Yi; Chettih, Selmaan; Harvey, Christopher (2023) Two-photon
   calcium imaging of mouse posterior cortical areas during dynamic navigation decisions
   (Tseng et al., 2022, Neuron) (Version draft) [Data set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
@@ -52,7 +81,7 @@ contributor:
   - dcite:FundingAcquisition
   schemaKey: Person
 dateCreated: '2023-07-10T21:58:09.569708+00:00'
-datePublished: '2023-07-20T05:08:46.993836+00:00'
+datePublished: '2023-07-21T16:46:55.287805+00:00'
 description: "This is the dataset for Tseng et al, \"Shared and specialized coding
   across posterior cortical areas for dynamic navigation decisions\" in Neuron (2022).
   The dataset contains calcium activity of >200,000 neurons recorded from 6 different
@@ -90,13 +119,13 @@ name: Two-photon calcium imaging of mouse posterior cortical areas during dynami
   navigation decisions (Tseng et al., 2022, Neuron)
 protocol: []
 publishedBy:
-  endDate: '2023-07-20T05:08:46.993836+00:00'
-  id: urn:uuid:72f4318e-5050-4fa5-b727-1f6a41677c78
+  endDate: '2023-07-21T16:46:55.287805+00:00'
+  id: urn:uuid:c4a4273c-5124-4d30-91b0-5f1b2ea732e1
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-07-20T05:08:46.993836+00:00'
+  startDate: '2023-07-21T16:46:55.287805+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:e7a9a04f-d02f-4a1c-974a-4a83ca162bce
+  - id: urn:uuid:0cb2c328-d529-46e2-8120-2319b3cd7549
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
