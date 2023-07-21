@@ -6,6 +6,8 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: We thank Ryan Ly for his generous help in generating and validating
+  the dataset.
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
@@ -23,8 +25,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: behavioral technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 243248779118
-  numberOfFiles: 306
+  numberOfBytes: 245591965505
+  numberOfFiles: 308
   numberOfSubjects: 8
   schemaKey: AssetsSummary
   species:
@@ -81,7 +83,7 @@ contributor:
   - dcite:FundingAcquisition
   schemaKey: Person
 dateCreated: '2023-07-10T21:58:09.569708+00:00'
-datePublished: '2023-07-21T17:34:58.181673+00:00'
+datePublished: '2023-07-21T19:01:02.242648+00:00'
 description: "This is the dataset for Tseng et al, \"Shared and specialized coding
   across posterior cortical areas for dynamic navigation decisions\" in Neuron (2022).
   The dataset contains calcium activity of >200,000 neurons recorded from 6 different
@@ -93,7 +95,12 @@ description: "This is the dataset for Tseng et al, \"Shared and specialized codi
   into the Allen Institute Mouse Common Coordinate Framework (CCF) based on widefield
   retinotopy. In addition, these neurons contain fluorescent labels of retroAAV injected
   in one of the two sets of projection targets: anterior ACC/M2 and striatum, or posterior
-  ACC/M2 and OFC.   \n\nPlease see the related paper for more details: https://doi.org/10.1016/j.neuron.2022.05.012"
+  ACC/M2 and OFC.   \n\nPlease see the related paper for more details: https://doi.org/10.1016/j.neuron.2022.05.012\n\nAdditional
+  resources:\n\nGithub repository for Jupyter notebook for a guide to read and extract
+  information from these NWB files: https://github.com/sytseng/Notebook_for_Dandiset_000579\n\nGithub
+  repository for NWB extension code for custom lab meta data (required for reading
+  NWB files): https://github.com/sytseng/ndx-harvey-swac \n\nGithub repository for
+  code and tutorials for fitting GLM to neural activity in Tensorflow 2: https://github.com/sytseng/GLM_Tensorflow_2"
 doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000579/draft
@@ -119,18 +126,42 @@ name: Two-photon calcium imaging of mouse posterior cortical areas during dynami
   navigation decisions (Tseng et al., 2022, Neuron)
 protocol: []
 publishedBy:
-  endDate: '2023-07-21T17:34:58.181673+00:00'
-  id: urn:uuid:1ca16533-d955-4213-a7f5-214a3877f501
+  endDate: '2023-07-21T19:01:02.242648+00:00'
+  id: urn:uuid:740cee18-0f05-4012-a43a-ca846125d550
   name: DANDI publish
   schemaKey: PublishActivity
-  startDate: '2023-07-21T17:34:58.181673+00:00'
+  startDate: '2023-07-21T19:01:02.242648+00:00'
   wasAssociatedWith:
-  - id: urn:uuid:bc4097ba-b844-4078-83b0-d77eb21dff46
+  - id: urn:uuid:75e0c3c0-05c3-4cc0-af7e-f39d8bb52755
     identifier: RRID:SCR_017571
     name: DANDI API
     schemaKey: Software
     version: 0.1.0
-relatedResource: []
+relatedResource:
+- identifier: Original paper
+  name: Shared and specialized coding across posterior cortical areas for dynamic
+    navigation decisions
+  relation: dcite:IsPublishedIn
+  schemaKey: Resource
+  url: https://doi.org/10.1016/j.neuron.2022.05.012
+- identifier: Data loading guide
+  name: Github repository for NWB file reading guide
+  relation: dcite:IsDocumentedBy
+  repository: Notebook_for_Dandiset_000579
+  schemaKey: Resource
+  url: https://github.com/sytseng/Notebook_for_Dandiset_000579
+- identifier: NWB extension for lab meta data
+  name: Github repository for NWB extension code for custom lab meta data
+  relation: dcite:IsSupplementedBy
+  repository: ndx-harvey-swac
+  schemaKey: Resource
+  url: https://github.com/sytseng/ndx-harvey-swac
+- identifier: GLM code in Tensorflow 2
+  name: Code and tutorials for fitting neural activity with GLM in Tensorflow 2
+  relation: dcite:IsContinuedBy
+  repository: GLM_Tensorflow_2
+  schemaKey: Resource
+  url: https://github.com/sytseng/GLM_Tensorflow_2
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
