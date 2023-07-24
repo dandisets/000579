@@ -48,7 +48,7 @@ contributor:
 - affiliation:
   - name: Harvard Medical School
     schemaKey: Affiliation
-  email: shihyi_tseng@g.harvard.edu
+  email: shihyitseng41@gmail.com
   identifier: 0000-0002-5029-433X
   includeInCitation: true
   name: Tseng, Shih-Yi
@@ -83,6 +83,42 @@ contributor:
   - dcite:FundingAcquisition
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: DP1 MH125776
+  contactPoint: []
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health Director’s Pioneer Award
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.nih.gov/
+- awardNumber: R01 NS089521
+  contactPoint: []
+  identifier: https://ror.org/01s5ya894
+  includeInCitation: false
+  name: National Institute of Neurological Disorders and Stroke
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.ninds.nih.gov/
+- awardNumber: R01 MH107620
+  contactPoint: []
+  identifier: https://ror.org/04xeg9z08
+  includeInCitation: false
+  name: National Institute of Mental Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://www.nimh.nih.gov/
+- awardNumber: R01 NS108410
+  contactPoint: []
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health BRAIN Initiative
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: https://braininitiative.nih.gov/
 dateCreated: '2023-07-10T21:58:09.569708+00:00'
 description: "This is the dataset for Tseng et al, \"Shared and specialized coding
   across posterior cortical areas for dynamic navigation decisions\" in Neuron (2022).
@@ -97,12 +133,10 @@ description: "This is the dataset for Tseng et al, \"Shared and specialized codi
   in one of the two sets of projection targets: an anterior part of anterior cingulate
   cortex/secondary motor cortex (ACC/M2) and striatum, or a posterior part of ACC/M2
   and orbitofrontal cortex (OFC).   \n\nPlease see the related paper for more details:
-  https://doi.org/10.1016/j.neuron.2022.05.012\n\nAdditional resources:\n\nGithub
-  repository for Jupyter notebook for a guide to read and extract information from
-  these NWB files: https://github.com/sytseng/Notebook_for_Dandiset_000579\n\nGithub
-  repository for NWB extension code for custom lab meta data (required for reading
-  NWB files): https://github.com/sytseng/ndx-harvey-swac \n\nGithub repository for
-  code and tutorials for fitting GLM to neural activity in Tensorflow 2: https://github.com/sytseng/GLM_Tensorflow_2"
+  https://doi.org/10.1016/j.neuron.2022.05.012\n\nAdditional resources:\n\n- Jupyter
+  notebook for a tutorial to read and extract information from these NWB files: https://github.com/sytseng/Notebook_for_Dandiset_000579\n\n-
+  NWB extension code for custom lab meta data (required for reading NWB files): https://github.com/sytseng/ndx-harvey-swac
+  \n\n- Code and tutorials for fitting GLM to neural activity in Tensorflow 2: https://github.com/sytseng/GLM_Tensorflow_2"
 ethicsApproval: []
 id: DANDI:000579/draft
 identifier: DANDI:000579
@@ -135,7 +169,7 @@ relatedResource:
   schemaKey: Resource
   url: https://doi.org/10.1016/j.neuron.2022.05.012
 - identifier: Data loading guide
-  name: Github repository for NWB file reading guide
+  name: Github repository for NWB file reading tutorial notebook
   relation: dcite:IsDocumentedBy
   repository: Notebook_for_Dandiset_000579
   schemaKey: Resource
