@@ -6,8 +6,8 @@ about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
-acknowledgement: We thank Ryan Ly for his generous help in generating and validating
-  the dataset.
+acknowledgement: 'We thank Ryan Ly for his generous help in generating and validating
+  the dataset. '
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
