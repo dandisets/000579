@@ -43,7 +43,8 @@ assetsSummary:
   - PlaneSegmentation
 citation: Tseng, Shih-Yi; Chettih, Selmaan; Harvey, Christopher (2023) Two-photon
   calcium imaging of mouse posterior cortical areas during dynamic navigation decisions
-  (Tseng et al., 2022, Neuron) (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000579/draft
+  (Tseng et al., 2022, Neuron) (Version 0.230728.1727) [Data set]. DANDI archive.
+  https://doi.org/10.48324/dandi.000579/0.230728.1727
 contributor:
 - affiliation:
   - name: Harvard Medical School
@@ -138,8 +139,9 @@ description: "This is the dataset for Tseng et al, \"Shared and specialized codi
   notebook for a tutorial to read and extract information from these NWB files: https://github.com/sytseng/Notebook_for_Dandiset_000579\n\n-
   NWB extension code for custom lab meta data (required for reading NWB files): https://github.com/sytseng/ndx-harvey-swac
   \n\n- Code and tutorials for fitting GLM to neural activity in Tensorflow 2: https://github.com/sytseng/GLM_Tensorflow_2"
+doi: 10.48324/dandi.000579/0.230728.1727
 ethicsApproval: []
-id: DANDI:000579/draft
+id: DANDI:000579/0.230728.1727
 identifier: DANDI:000579
 keywords:
 - mouse
@@ -158,7 +160,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000579/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000579/0.230728.1727/assets.yaml
 name: Two-photon calcium imaging of mouse posterior cortical areas during dynamic
   navigation decisions (Tseng et al., 2022, Neuron)
 protocol: []
@@ -203,6 +205,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000579/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000579/0.230728.1727
+version: 0.230728.1727
 wasGeneratedBy: []
