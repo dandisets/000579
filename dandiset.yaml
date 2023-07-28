@@ -120,6 +120,7 @@ contributor:
   schemaKey: Organization
   url: https://braininitiative.nih.gov/
 dateCreated: '2023-07-10T21:58:09.569708+00:00'
+datePublished: '2023-07-28T17:27:02.559597+00:00'
 description: "This is the dataset for Tseng et al, \"Shared and specialized coding
   across posterior cortical areas for dynamic navigation decisions\" in Neuron (2022).
   The dataset contains calcium activity of >200,000 neurons recorded from 6 different
@@ -161,6 +162,18 @@ manifestLocation:
 name: Two-photon calcium imaging of mouse posterior cortical areas during dynamic
   navigation decisions (Tseng et al., 2022, Neuron)
 protocol: []
+publishedBy:
+  endDate: '2023-07-28T17:27:02.559597+00:00'
+  id: urn:uuid:6d49336c-a6e7-45b6-889c-c94d6b8ab132
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-07-28T17:27:02.559597+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:4341c65d-6985-45bc-9233-3de397efabba
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: Original paper
   name: Shared and specialized coding across posterior cortical areas for dynamic
@@ -168,7 +181,7 @@ relatedResource:
   relation: dcite:IsPublishedIn
   schemaKey: Resource
   url: https://doi.org/10.1016/j.neuron.2022.05.012
-- identifier: Data loading guide
+- identifier: Data loading tutorial
   name: Github repository for NWB file reading tutorial notebook
   relation: dcite:IsDocumentedBy
   repository: Notebook_for_Dandiset_000579
